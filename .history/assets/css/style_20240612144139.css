@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+    
+}
+
+.wrap_header {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav ul {
+    display: flex;
+}

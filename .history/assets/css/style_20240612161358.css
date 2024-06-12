@@ -28,34 +28,22 @@ a {
     max-width: calc(100% - 48px);
 }
 .btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 16px;
-    min-width: 118px;
-    line-height: 50px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    border-radius: 999px;
+    display: inline-block;
+    width: 144px;
+    height: 50px;
+    border-radius: 9999px;
+    text-align: center;
     background: #171100;
-    color: #fff;
 }
-
-.header.fixed {
-    position: sticky;
-    top: -28px;
-}
-
 /* HEADER */
 .header {
-    background: #FFFCF4;
 }
 
 .wrap_header {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    padding: 36px 0 8px;
+    margin-top: 36px;
 }
 .header .nav {
     margin-left: auto;
@@ -90,9 +78,4 @@ a {
     position: absolute;
     left: 21px;
     bottom: 0;
-}
-
-.header .sign-up_btn {
-    margin-left: 49px;
-    min-width: 144px;
 }

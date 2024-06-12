@@ -40,12 +40,6 @@ a {
     background: #171100;
     color: #fff;
 }
-
-.header.fixed {
-    position: sticky;
-    top: -28px;
-}
-
 /* HEADER */
 .header {
     background: #FFFCF4;
@@ -93,6 +87,6 @@ a {
 }
 
 .header .sign-up_btn {
-    margin-left: 49px;
+    margin-left: 28px;
     min-width: 144px;
 }

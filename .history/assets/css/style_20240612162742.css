@@ -28,9 +28,9 @@ a {
     max-width: calc(100% - 48px);
 }
 .btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
     padding: 0 16px;
     min-width: 118px;
     line-height: 50px;
@@ -40,22 +40,15 @@ a {
     background: #171100;
     color: #fff;
 }
-
-.header.fixed {
-    position: sticky;
-    top: -28px;
-}
-
 /* HEADER */
 .header {
-    background: #FFFCF4;
 }
 
 .wrap_header {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    padding: 36px 0 8px;
+    margin-top: 36px;
 }
 .header .nav {
     margin-left: auto;
@@ -92,7 +85,6 @@ a {
     bottom: 0;
 }
 
-.header .sign-up_btn {
-    margin-left: 49px;
-    min-width: 144px;
+.action .btn {
+    margin-left: 28px;
 }

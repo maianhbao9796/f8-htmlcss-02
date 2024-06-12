@@ -20,42 +20,21 @@ body {
 /* COMMON CSS */
 a {
     text-decoration: none;
-    color: unset;
 }
 .main-content {
     width: 1170px;
     margin: 0 auto;
     max-width: calc(100% - 48px);
 }
-.btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 16px;
-    min-width: 118px;
-    line-height: 50px;
-    font-size: 1.6rem;
-    font-weight: 600;
-    border-radius: 999px;
-    background: #171100;
-    color: #fff;
-}
-
-.header.fixed {
-    position: sticky;
-    top: -28px;
-}
 
 /* HEADER */
 .header {
-    background: #FFFCF4;
 }
 
 .wrap_header {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    padding: 36px 0 8px;
 }
 .header .nav {
     margin-left: auto;
@@ -65,11 +44,10 @@ a {
 }
 
 .nav a {
-    padding: 6px 21px;
+    padding: 8px 21px;
     font-size: 1.6rem;
     color: #5f5b53;
-    /* background-color: aquamarine; */
-    position: relative;
+    background-color: aquamarine;
 }
 
 .nav a:hover,
@@ -82,17 +60,9 @@ a {
 
 .nav li.active a::after {
     content: "";
-    display: inline-block;
     width: 12px;
     height: 2px;
     border-radius: 1px;
     background: #171100;
-    position: absolute;
-    left: 21px;
-    bottom: 0;
-}
 
-.header .sign-up_btn {
-    margin-left: 49px;
-    min-width: 144px;
 }
